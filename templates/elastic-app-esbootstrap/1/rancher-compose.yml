@@ -20,6 +20,11 @@
       type: "string"
       required: true
       default: esbootstrap=yes
+    - variable: dev_env
+      label: "Define if stack in launched in development environment"
+      type: "boolean"
+      required: false
+      default: false
 esapp:
   scale: 1
   health_check:
